@@ -5,4 +5,5 @@ package com.meteor.ddd.infrastructure.utils.mq;
  * @since 1.0.0
  */
 public class MessagePublisher {
+
 }
