@@ -1,6 +1,5 @@
 package com.meteor.ddd.domain.service;
 
-import com.meteor.ddd.domain.entity.LoginTypeEnum;
 import com.meteor.ddd.domain.entity.User;
 
 /**
@@ -10,12 +9,21 @@ import com.meteor.ddd.domain.entity.User;
 public interface IUserDomainService {
 
     /**
-     * 用户登录
+     * 手机密码登录
      *
-     * @param account   账户
-     * @param password  密码
-     * @param loginType 登录类型
+     * @param phone 手机号
+     * @param password 密码
      * @return /
      */
-    User login(String account, String password, LoginTypeEnum loginType);
+    User loginWithPhone(String phone, String password);
+
+    /**
+     * 小程序登录
+     *
+     * @param phone 手机号
+     * @param openId    openId
+     * @param unionId /
+     * @return /
+     */
+    User loginWithMiniProgram(String phone, String openId, String unionId);
 }

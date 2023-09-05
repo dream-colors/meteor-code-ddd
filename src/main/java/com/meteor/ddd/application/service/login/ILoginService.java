@@ -1,4 +1,4 @@
-package com.meteor.ddd.domain.service.login;
+package com.meteor.ddd.application.service.login;
 
 import com.meteor.ddd.domain.entity.LoginTypeEnum;
 import com.meteor.ddd.domain.entity.User;
@@ -13,10 +13,10 @@ public interface ILoginService {
      * @return /
      */
     LoginTypeEnum getLoginType();
+
     /**
      * 登录
-     *
-     * @param account   /
+     * @param account  /
      * @param password /
      * @return /
      */

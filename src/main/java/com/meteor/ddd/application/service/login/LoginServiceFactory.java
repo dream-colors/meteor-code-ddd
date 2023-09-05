@@ -1,4 +1,4 @@
-package com.meteor.ddd.domain.service.login;
+package com.meteor.ddd.application.service.login;
 
 import com.meteor.ddd.domain.entity.LoginTypeEnum;
 import lombok.extern.slf4j.Slf4j;

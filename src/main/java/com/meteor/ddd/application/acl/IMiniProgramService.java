@@ -1,4 +1,4 @@
-package com.meteor.ddd.domain.acl;
+package com.meteor.ddd.application.acl;
 
 import java.util.Map;
 

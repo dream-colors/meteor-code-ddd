@@ -1,6 +1,6 @@
 package com.meteor.ddd.infrastructure.acl;
 
-import com.meteor.ddd.domain.acl.IMiniProgramService;
+import com.meteor.ddd.application.acl.IMiniProgramService;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
